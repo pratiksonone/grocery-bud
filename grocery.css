@@ -1,0 +1,109 @@
+body {
+  background-color: #f1f5f8;
+  font-family: "Segoe UI";
+  letter-spacing: 4px;
+}
+.main-section {
+  background-color: white;
+  padding: 10px 30px 30px 30px;
+  margin: 50px auto;
+  border-radius: 8px;
+  max-width: 560px;
+}
+.grocery-field h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #0e3856;
+  margin-bottom: 15px;
+}
+.grocery-input-field {
+  display: flex;
+  justify-content: center;
+}
+.grocery-input-field input,
+.grocery-input-field button {
+  padding: 5px 16px;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.grocery-input-field input {
+  flex: 1 0 auto;
+  border: 3px solid #669dde;
+  border-radius: 5px;
+  background-color: #f1f5f8;
+  color: #718ea7;
+}
+.grocery-input-field input::placeholder {
+  color: #718ea7;
+}
+.grocery-input-field button {
+  background-color: #a5d5f9;
+  border: 2px solid #a5d5f9;
+  border-radius: 0 6px 6px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+.grocery-input-field button:hover {
+  color: white;
+  background: #49ace9;
+  border: 2px solid #49ace9;
+}
+.grocery-container {
+  margin-top: 32px;
+}
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.grocery-name {
+  color: #0e3856;
+}
+.btn-container button {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn-container button:nth-child(1) {
+  color: hsl(125, 71%, 66%);
+}
+.btn-container button:nth-child(1):hover {
+  color: #009b77;
+}
+.btn-container button:nth-child(2) {
+  color: hsl(360, 71%, 70%);
+}
+.btn-container button:nth-child(2):hover {
+  color: #cd212a;
+}
+.clear-btn button {
+  display: flex;
+  margin: 20px auto 0 auto;
+  background: transparent;
+  border-color: transparent;
+  color: hsl(360, 71%, 70%);
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+.clear-btn button:hover {
+  color: #cd212a;
+}
+.alert {
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 25px;
+  height: 25px;
+}
+.alert-danger {
+  color: #cd212a;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #009b77;
+  background: #d4edd4;
+}

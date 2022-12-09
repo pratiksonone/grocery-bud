@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./grocery.css" />
+  <script src="https://kit.fontawesome.com/9df96076a2.js" crossorigin="anonymous"></script>
+  <title>Grocery Bud - CRUD application</title>
+</head>
+
+<body>
+  <div class="main-section">
+    <div class="grocery-field" id="groceryField">
+      <p class="alert" id="alertMessage"></p>
+      <h1>Grocery Bud</h1>
+      <div class="grocery-input-field">
+        <input type="text" id="groceryInput" placeholder="e.g. eggs" />
+        <button id="submitBtn" type="submit">Submit</button>
+      </div>
+    </div>
+    <div class="grocery-container">
+      <div id="groceryList"></div>
+    </div>
+    <div class="clear-btn">
+      <button type="button" id="clearBtn" disabled>Clear Items</button>
+    </div>
+  </div>
+  <script src="./grocery.js"></script>
+</body>
+
+</html>
